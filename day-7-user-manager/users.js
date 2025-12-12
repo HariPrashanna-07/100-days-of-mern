@@ -65,4 +65,4 @@ module.exports = {
     addUser: addUser,
     listUsers: listUsers,
     delUser:delUser
-};
+}
