@@ -37,7 +37,7 @@ JWT_SECRET=mysecretkey123
 
 🧪 API Endpoints
 
-GET	  |  /api/products   	|Fetch all products
+GET   |  /api/products   	|Fetch all products
 POST  |	/api/users/register	|Register a new user
 POST  |	/api/users/login	|Login user & get Token
 POST  |	/api/orders	        |Place a new order (Requires Login)

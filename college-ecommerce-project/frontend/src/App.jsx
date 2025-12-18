@@ -18,6 +18,7 @@ function App() {
   // 2. Fetch Products
   useEffect(() => {
     axios.get('http://localhost:5000/api/products')
+
       .then(res => setProducts(res.data.data))
       .catch(err => console.error(err));
   }, []);
@@ -46,7 +47,7 @@ function App() {
   return (
     <BrowserRouter>
       <nav style={{ display: 'flex', justifyContent: 'space-between', padding: '20px', background: '#333', color: 'white' }}>
-          <h1 style={{ margin: 0 }}>CollegeStore</h1>
+          <h1 style={{ margin: 0 }}>Hari Store</h1>
           <div>
             <Link to="/" style={{ color: 'white', marginRight: '20px', textDecoration: 'none' }}>Home</Link>
             <Link to="/cart" style={{ color: 'white', marginRight: '20px', textDecoration: 'none' }}>Cart ({cart.length})</Link>
